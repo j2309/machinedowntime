@@ -128,5 +128,5 @@ def main():
     else:
         st.sidebar.info("Upload a CSV or Excel file to get started.")
 
-if _name_ == '_main_':
+if __name__ == '__main__':
     main()
