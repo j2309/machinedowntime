@@ -199,7 +199,6 @@ def main():
                 # Show detailed results if multiple rows
                 if len(input_df) > 1:
                     input_df['Prediction'] = prediction
-                    input_df['Failure_Probability'] = [x[1] for x in model.predict_proba(processed_data)]
                     with st.expander("📈 Detailed Results"):
                         st.dataframe(input_df)
                         
