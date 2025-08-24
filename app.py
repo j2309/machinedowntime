@@ -4,7 +4,7 @@ import joblib
 from io import StringIO
 
 # ✅ Load pipeline (preprocessor + model together)
-pipeline = joblib.load("pipeline.pkl")
+pipeline = joblib.load("rfc.pkl")
 
 # Updated standard parameters
 STANDARD_PARAMS = {
@@ -191,3 +191,4 @@ def main():
 
 if __name__ == '__main__':
     main()
+
