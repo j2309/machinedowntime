@@ -90,7 +90,7 @@ def main():
         margin-bottom: 20px;
     }
     .input-section {
-        background-color: green;
+        background-color:#d9534f ;
         padding: 20px;
         border-radius: 10px;
         margin-bottom: 20px;
